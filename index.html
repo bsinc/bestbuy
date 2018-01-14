@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Brenda Sinclair | Best Buy Assessment</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/layout.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+</head>
+<body>
+  <!-- div 'overflow-fix' prevents unwanted horizontal scrolling on mobile -->
+  <div class="overflow-fix">
+    <section class="container layout horizontal around-justified" id="intro">
+      <div class="flex desktop" id="intro-phone">
+        <img src="imgs/intro-phone.png" alt="Samsung Galaxy S5" title="Samsung Galaxy S5"/>
+      </div>
+      <div class="flex layout vertical" id="intro-container">
+        <h1>Samsung</h1>
+        <h2>Galaxy S5</h2>
+        <!-- duplicate (mobile version) image for mobile layout -->
+        <img src="imgs/intro-phone-mobile.png" class="mobile" alt="Samsung Galaxy S5" title="Samsung Galaxy S5"/>
+        <div class="layout horizontal justified" id="price">
+          <h2>$719.99</h2>
+          <select id="select-quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+        </div>
+        <select id="select-cart">
+          <option value="add-to-cart">Add to cart</option>
+        </select>
+        <div class="rating" id="intro-rating">
+          <img src="imgs/star-green.png" alt="Green Star"/>
+          <img src="imgs/star-green.png" alt="Green Star"/>
+          <img src="imgs/star-green.png" alt="Green Star"/>
+          <img src="imgs/star-green.png" alt="Green Star"/>
+          <img src="imgs/star-grey.png" alt="Grey Star"/>
+        </div>
+        <p id="intro-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget dui enim. Nam eu feugiat ex. Nullam sed placerat dui, in tempus</p>
+        <div class="info-box">
+          <p class="subheader">Add Product Protection Plan</p>
+          <div class="checkbox">
+            <input type="checkbox" name="2year">
+            <label for="2year">2-Year Protection Plan* <span class="accent-blue">$105.00</span></label>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" name="1year">
+            <label for="1year">1-Year Protection Plan* <span class="accent-blue">$60.00</span></label>
+          </div>
+          <p>*A $99 deductible applies to all claims.</p>
+        </div>
+      </div>
+    </section>
+    <section class="container" id="features">
+      <div class="layout horizontal">
+        <div class="layout vertical" id="features-header">
+          <div class="layout vertical end-justified title-block pink-bg">
+            <p>Top</p>
+            <p>Features</p>
+          </div>
+          <div>
+            <div class="video-block" id="right">
+              <img src="imgs/features-video-block-1.png" alt="Promo Video 1" title="Promo Video 1"/>
+            </div>
+            <div class="video-block">
+              <img src="imgs/features-video-block-2.png" alt="Promo Video 2" title="Promo Video 2"/>
+            </div>
+          </div>
+        </div>
+        <div class="flex layout inline horizontal center-center more-details-container desktop tablet">
+          <div class="more-details layout vertical center-center">
+            <img src="imgs/arrow-down.png" alt="More Details"/>
+            <span>More Details</span>
+          </div>
+        </div>
+      </div>
+      <div class="info-box layout horizontal justified wrap">
+        <div class="column">
+          <p class="subheader">3G</p>
+          <p>3G, short form of third generation, is the third generation of mobile telecommunications.</p>
+          <p class="subheader">6" Touchscreen</p>
+          <p>A touchscreen is an input device normally layered on the top of an electronic visual display of an information processing system.Use our Touchscreen Selector to sort, search and filter.</p>
+          <p class="subheader">Browse the Web</p>
+          <p>The address bar is your starting point for browsing the web, with a combined address bar and search box so you can surf, search, or get suggestions all from Google.</p>
+        </div>
+        <div class="column">
+          <p class="subheader">Wi-Fi Capable</p>
+          <p>If it is compliant or partly compatible, the Wi-Fi Alliance may not object to its description as a Wi-Fi device though technically only certified devices are approved.</p>
+          <p class="subheader">Camera</p>
+          <p>A camera is an optical instrument that records images that can be stored directly, transmitted to another location, or both. These images may be still photographs.</p>
+        </div>
+      </div>
+    </section>
+    <section class="container" id="specs">
+      <div class="layout horizontal justified">
+        <div class="flex layout horizontal center-center desktop">
+          <div class="more-details layout vertical center-center">
+            <img src="imgs/arrow-down.png" alt="More Details"/>
+            <span>More Details</span>
+          </div>
+        </div>
+        <div class="layout vertical end-justified title-block yellow-bg">
+          <img src="imgs/features-phone.png" id="floating-phone" alt="Samsung Galaxy S5" title="Samsung Galaxy S5"/>
+          <p>Detailed</p>
+          <p>Specs</p>
+        </div>
+      </div>
+      <div class="info-box">
+        <div class="layout horizontal center-center wrap">
+          <div class="column">
+            <div class="block">
+              <h2>General</h2>
+              <p class="subheader">4G Network</p>
+              <p>GSM 850 / 900 / 1800 / 1900 SIM</p>
+              <p class="subheader">3G Network</p>
+              <p>HSDPA 850 / 900 / 1900 / 2100</p>
+              <p class="subheader">SIM</p>
+              <p>Micro SIM</p>
+            </div>
+            <div class="block">
+              <h2>Sound</h2>
+              <p class="subheader">Alert Types</p>
+              <p>Vibration, MP3, Ringtones</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="block">
+              <h2>Display</h2>
+              <p class="subheader">Type</p>
+              <p>Super AMOLED Capacative  Touchscreen</p>
+              <p class="subheader">Size</p>
+              <p>122 mm  x 66 mm (3.24 x 2.34 inches)</p>
+            </div>
+            <div class="block">
+              <h2>Body</h2>
+              <p class="subheader">Dimensions</p>
+              <p>137 mm x 71mm (5.38 x 2.75 inches)</p>
+              <p class="subheader">Weight</p>
+              <p>220 grams (1.2LBs)</p>
+            </div>
+          </div>
+          <div class="column">
+            <img src="imgs/details-phone.png" alt="Samsung Galaxy S5" title="Samsung Galaxy S5" class="desktop"/>
+            <img src="imgs/details-phone-mobile.png" alt="Samsung Galaxy S5" title="Samsung Galaxy S5" class="mobile"/>
+          </div>
+        </div>
+        <button class="layout horizontal center around-justified yellow-bg">
+          See More Specs
+          <img src="imgs/arrow-right.png" alt="See More Specs"/>
+        </button>
+      </div>
+    </section>
+    <section class="container" id="reviews">
+      <div class="layout horizontal">
+        <div class="layout vertical end-justified title-block green-bg">
+          <p>Read</p>
+          <p>Reviews</p>
+        </div>
+        <div class="flex layout horizontal center-center desktop">
+          <div class="more-details layout vertical center-center">
+            <img src="imgs/arrow-down.png" alt="More Details"/>
+            <span>More Details</span>
+          </div>
+        </div>
+      </div>
+      <div class="layout horizontal wrap">
+        <div id="score">
+          <p>Overall Score</p>
+          <h1>8/10</h1>
+          <button class="layout horizontal center around-justified green-bg">
+            Write a Review
+            <img src="imgs/arrow-right.png" alt="Write a Review"/>
+          </button>
+        </div>
+        <div class="flex info-box">
+          <div class="review">
+            <div class="rating">
+              <img src="imgs/star-green.png" alt="Green Star"/>
+              <img src="imgs/star-green.png" alt="Green Star"/>
+              <img src="imgs/star-green.png" alt="Green Star"/>
+              <img src="imgs/star-green.png" alt="Green Star"/>
+              <img src="imgs/star-grey.png" alt="Grey Star"/>
+            </div>
+            <div class="layout horizontal wrap">
+              <div class="flex content">
+                <h2>GREAT PHONE!!</h2>
+                <p class="review-author">Adam Ginther on August 6</p>
+                <p class="review-content">nothing comes close to this baby. The S Pen gives you versatility. You don't think you will use it much at first... But I have come to rely on it in situations that I need to be precise or jot down quick notes. I love how precise it is, to the point where my handwriting looks like my own. The camera is superb, Samsung really did good in adding in the image stabilization to this phone.</p>
+              </div>
+              <div>
+                <div class="rating-breakdown">
+                  <p class="subheader">Value</p>
+                  <div class="ticks layout horizontal center">
+                    <div class="tick green-bg"></div>
+                    <div class="tick green-bg"></div>
+                    <div class="tick green-bg"></div>
+                    <div class="tick green-bg"></div>
+                    <div class="tick light-grey-bg"></div>
+                  </div>
+                </div>
+                <div class="rating-breakdown">
+                  <p class="subheader">Price</p>
+                  <div class="ticks layout horizontal center">
+                    <div class="tick green-bg"></div>
+                    <div class="tick green-bg"></div>
+                    <div class="tick green-bg"></div>
+                    <div class="tick green-bg"></div>
+                    <div class="tick light-grey-bg"></div>
+                  </div>
+                </div>
+                <div class="rating-breakdown">
+                  <p class="subheader">Quality</p>
+                  <div class="ticks layout horizontal center">
+                    <div class="tick green-bg"></div>
+                    <div class="tick green-bg"></div>
+                    <div class="tick green-bg"></div>
+                    <div class="tick green-bg"></div>
+                    <div class="tick green-bg"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="review">
+            <div class="rating">
+              <img src="imgs/star-green.png" alt="Green Star"/>
+              <img src="imgs/star-green.png" alt="Green Star"/>
+              <img src="imgs/star-green.png" alt="Green Star"/>
+              <img src="imgs/star-green.png" alt="Green Star"/>
+              <img src="imgs/star-grey.png" alt="Grey Star"/>
+            </div>
+            <div class="layout horizontal wrap">
+              <div class="flex content">
+                <h2>The Best Android phone yet.</h2>
+                <p class="review-author">Chris Saunders on August 2</p>
+                <p class="review-content">I moved up from a Samsung Galaxy 3, to the Samsung Note 4....Big move...the Note 4 is more phone/camera than I expected...the (magic) pen is awasome. Good job Samsung..best among the phablets available in the market now.....really awesome Absolutely, without doubt, the best phone ever made by men. Samsung got it right this time.</p>
+              </div>
+              <div>
+                <div class="rating-breakdown">
+                  <p class="subheader">Value</p>
+                  <div class="ticks layout horizontal center">
+                    <div class="tick green-bg"></div>
+                    <div class="tick light-grey-bg"></div>
+                    <div class="tick light-grey-bg"></div>
+                    <div class="tick light-grey-bg"></div>
+                    <div class="tick light-grey-bg"></div>
+                  </div>
+                </div>
+                <div class="rating-breakdown">
+                  <p class="subheader">Price</p>
+                  <div class="ticks layout horizontal center">
+                    <div class="tick green-bg"></div>
+                    <div class="tick green-bg"></div>
+                    <div class="tick green-bg"></div>
+                    <div class="tick green-bg"></div>
+                    <div class="tick light-grey-bg"></div>
+                  </div>
+                </div>
+                <div class="rating-breakdown">
+                  <p class="subheader">Quality</p>
+                  <div class="ticks layout horizontal center">
+                    <div class="tick green-bg"></div>
+                    <div class="tick green-bg"></div>
+                    <div class="tick green-bg"></div>
+                    <div class="tick light-grey-bg"></div>
+                    <div class="tick light-grey-bg"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
