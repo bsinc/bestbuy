@@ -189,6 +189,14 @@ label span {
 #specs {
   margin-top: -84px;
 }
+/* Workaround for edge, negative margin-top on an element does not work with floating element above */
+@supports (-ms-ime-align:auto) {
+  #specs {
+    position: relative;
+    top: -76px;
+    margin-bottom: -76px;
+  }
+}
 #floating-phone {
   position: absolute;
   left: 42px;
@@ -245,6 +253,14 @@ label span {
     float: none;
     max-width: none;
     margin: 0;
+  }
+  /* Workaround for edge, negative margin-top on an element does not work with floating element above */
+  @supports (-ms-ime-align:auto) {
+    #specs {
+      position: relative;
+      top: 0;
+      margin-bottom: 0;
+    }
   }
 }
 @media screen and (min-width: 961px) and (max-width: 1220px) {
