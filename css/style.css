@@ -61,7 +61,7 @@ button:hover {
   font-size: 18px;
   background-color: #fff;
 }
-.info-box .checkbox {
+.info-box .radio-btn {
   margin: 8px 0;
 }
 .info-box .column {
@@ -205,6 +205,12 @@ label span {
 #specs .info-box .column {
   width: 32%;
 }
+#specs .info-box .block p {
+  margin: 4px 0;
+}
+#specs .info-box .block p:nth-child(even){
+  margin-top: 20px;
+}
 /********************************************
                   REVIEWS
 *********************************************/
@@ -215,6 +221,9 @@ label span {
 #score h1 {
   margin: 0;
   font-size: 120px;
+}
+#reviews .info-box{
+  min-width: 320px;
 }
 .review:first-of-type {
   margin-bottom: 60px;
@@ -227,7 +236,7 @@ label span {
   font-size: 14px;
 }
 .review .content {
-  min-width: 400px;
+  min-width: 320px;
 }
 .review-content {
   font-size: 18px;
