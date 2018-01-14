@@ -66,7 +66,7 @@ button:hover {
 }
 .info-box .column {
   width: 48%;
-  min-width: 320px;
+  min-width: 280px;
 }
 .info-box .block {
   margin-bottom: 60px;
